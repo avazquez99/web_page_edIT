@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li>
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html">
+                      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+                    </a>
+                  </div> 
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#about-us-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><a href="quienes-somos.html">QUIENES SOMOS</a></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="project-tab" data-bs-toggle="tab" data-bs-target="#project-tab-pane" type="button" role="tab" aria-controls="proj-tab-pane" aria-selected="false"><a href="proyecto.html">PROYECTO</a></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="activities-tab" data-bs-toggle="tab" data-bs-target="#activities-tab-pane" type="button" role="tab" aria-controls="act-tab-pane" aria-selected="false"><a href="actividades.html">ACTIVIDADES</a></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="collab-tab" data-bs-toggle="tab" data-bs-target="#collaboration-tab-pane" type="button" role="tab" aria-controls="collab-tab-pane" aria-selected="false"><a href="colaborar.html">COLABORAR</a></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="inscription-tab" data-bs-toggle="tab" data-bs-target="#inscriptions-tab-pane" type="button" role="tab" aria-controls="inscr-tab-pane" aria-selected="false"><a href="inscripciones.html">INSCRIPCIONES</a></button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+          </div>
+    </header>
+
+    <h1>INSCRIPCIONES</h1>
+
+    <footer class="pt-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 footer-box">
+              <h4>Escribinos</h4>
+              <ul class="footer-list">
+                <li class="footer-item">32 Rossfield Green</li>
+                <li class="footer-item">Jobstown, Tallaght</li>
+                <li class="footer-item">Dublín, Irlanda</li>
+                <li class="footer-item">vazquez@projects.com</li>
+                <li class="footer-item"><img class="footer-slogan" src="images/footer-slogan.jpg" alt="slogan"></li>
+              </ul>
+            </div>
+            <div class="col-6 footer-box">
+              <form action=""></form>
+              <div class="mb-3">
+                <label for="nameFormControl" class="form-label">Nombre y apellido: </label>
+                <input type="text" class="form-control" id="nameFormControl" placeholder="Pepito Vazquez">
+              </div>
+              <div class="mb-3">
+                <label for="emailFormControl" class="form-label">Email: </label>
+                <input type="email" class="form-control" id="emailFormControl" placeholder="email@ejemplo.com">
+              </div>
+              <div class="mb-3">
+                <label for="mensajeFormControl" class="form-label">Dejanos tu mensaje: </label>
+                <textarea class="form-control" id="mensajeFormControl" rows="3" placeholder="Escribí tu consulta..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+    
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
