@@ -11,12 +11,13 @@
 </head>
 
 <body>
+  <!--Header Section - Header-->
   <header>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li>
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+        <div class="container m-0 p-0">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo-header.jpg" alt="logo-header" width="50" height="45">
           </a>
         </div>
       </li>
@@ -46,31 +47,45 @@
             href="sections/inscripciones.html">INSCRIPCIONES</a></button>
       </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-        ...</div>
-      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...
-      </div>
-      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...
-      </div>
-      <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...
-      </div>
-    </div>
   </header>
+  
   <main>
-    <div class="image">
-      <img src="../condiciones de entrega fase 1 proyecto final curso.jpg" alt="prueba">
-    </div>
-    <div class="information">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est laudantium id consequuntur perspiciatis et quo,
-        quas tempora libero ex! Distinctio dolores incidunt saepe nisi, tenetur aperiam repellendus ipsum animi?</p>
-    </div>
-    <div class="pillars">
-      <p>pillar 1 - image</p>
-      <p>pillar 2 - image</p>
-      <p>pillar 3 - image</p>
-    </div>
+    <!--Section 1 - Cover-->
+    <section>
+      <div class="container-fluid act-cover m-0 p-0">
+        <div class="row m-0 p-0">
+          <div class="col m-0 p-0">
+            <div class="container-fluid d-flex index-section-image">
+              <img src="images/index-cover.jpg" class="img-fluid" alt="act-section-cover">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!--Section 2 - Index Body-->
+  <section>
+    <div class="container sect-2">
+      <div class="row">
+        <div class="col-2">
+          <img class="img-fluid" src="images/index-body-img.jpg" alt="logo-img" >
+        </div>
+        <div class="col">
+          <h5>GC es una organización sin fines de lucro</h5>
+          <h5 class="highlighted-text">que trabaja para promover el desarrollo integral de niños, niñas y adolescentes a través de la educación,</h5>
+          <h5>articulando los siguientes tres ejes:</h5>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer Section - Index-->
   <footer class="pt-3">
     <div class="container-fluid">
       <div class="row">
@@ -96,7 +111,8 @@
           </div>
           <div class="mb-3">
             <label for="mensajeFormControl" class="form-label">Dejanos tu mensaje: </label>
-            <textarea class="form-control" id="mensajeFormControl" rows="3" placeholder="Escribí tu consulta..."></textarea>
+            <textarea class="form-control" id="mensajeFormControl" rows="3"
+              placeholder="Escribí tu consulta..."></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>
           </form>

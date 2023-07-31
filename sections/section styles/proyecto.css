@@ -1,3 +1,13 @@
+/*Section styles*/
+
+/*Section 1*/
+.proj-section-image {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
 /*Footer styles*/
 footer {
     background-color: #3c4146;

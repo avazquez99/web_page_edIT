@@ -9,6 +9,14 @@ body {
 
 /*Section styles*/
 
+/*Section 1*/
+.act-section-image {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
 /*Section 2*/
 .sect-2,
 .sect-4 {
@@ -34,17 +42,6 @@ p {
 /*Section 3*/
 
 
-.cover-act {
-    padding: 0;
-    margin: 0;
-}
-
-.act-section-image {
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    height: auto;
-}
 
 /*Footer styles*/
 footer {

@@ -1,3 +1,31 @@
+
+/*Section styles*/
+
+/*Section 1*/
+.index-section-image {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/*Section 2*/
+.sect-2 {
+    margin: 10px auto 10px auto;
+}
+
+h5 {
+    text-align: center;
+}
+
+.highlighted-text {
+    display: inline-flex;
+    background-color: #00a7d1;
+    color: #fff;
+    height: 50px;
+}
+
+
 header {
     padding: 0;
     margin: 0;
