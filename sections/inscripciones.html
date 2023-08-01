@@ -48,8 +48,72 @@
     </ul>
   </header>
 
-  <h1>INSCRIPCIONES</h1>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="container info-cont p-0 m-0">
+            <div class="container p-0" style="background-color: #02bac7;">
+              <h3>REQUISITOS DE INSCRIPCIÓN: </h3>
+            </div>
+            <div class="container p-0" style="border-top: 1px solid #838383;">
+              <h5>Tener entre 5 y hasta 11 años</h5>
+            </div>
+            <div class="container p-0" style="border-top: 1px solid #838383;">
+              <h5>Tener acompañamiento de la familia durante el ciclo lectivo</h5>
+            </div>
+          </div>
+          <div class="container">
+            <img class="img-fluid m-1" src="../images/inscriptions-section/kids.jpg" alt="kids-form">
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col-9 p-0 m-0 form-text-cont">
+              <h5 class="form-text">Para comenzar con el proceso de inscripción debe completar el siguiente formulario
+              </h5>
+            </div>
+            <div class="col-3 p-0">
+              <img class="img-fluid" src="../images/index-body-img.jpg" alt="form-logo">
+            </div>
+          </div>
+          <form>
+            <label class="text" for="name">Nombre:</label>
+            <input type="text" id="name" name="nombre" placeholder="Nombre y Apellido (madre / padre / tutor)" required>
+            <br>
 
+            <label class="text" for="studentName">Nombre del alumno:</label>
+            <input type="text" id="studentName" name="nombre_alumno" placeholder="Pepito Juan Gimenez" required>
+            <br>
+
+            <label class="text" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com *" required>
+            <br>
+
+            <label class="text" for="phoneNumber">Número de teléfono:</label>
+            <input type="tel" id="phoneNumber" name="telefono" pattern="[0-9]{9,15}" placeholder="+5492604... *" required>
+            <br>
+
+            <label class="text" for="appointment">Turno:</label>
+            <select id="appointment" name="turno" required>
+              <option value="" disabled selected>Selecciona un turno</option>
+              <option value="morning">Mañana</option>
+              <option value="afternoon">Tarde</option>
+              <option value="evening">Noche</option>
+            </select>
+            <br>
+
+            <label class="text" for="message">Mensaje:</label>
+            <textarea id="message" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            <br>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+  </section>
+
+  <!--Footer Section - Inscriptions-->
   <footer class="pt-3">
     <div class="container-fluid">
       <div class="row">
@@ -60,7 +124,7 @@
             <li class="footer-item">Jobstown, Tallaght</li>
             <li class="footer-item">Dublín, Irlanda</li>
             <li class="footer-item">vazquez@projects.com</li>
-            <li class="footer-item"><img class="footer-slogan" src="images/footer-slogan.jpg" alt="slogan"></li>
+            <li class="footer-item"><img class="footer-slogan" src="../images/footer-slogan.jpg" alt="slogan"></li>
           </ul>
         </div>
         <div class="col-6 footer-box">

@@ -1,3 +1,70 @@
+/*Section 1 - Body*/
+section {
+    margin: 10px;
+    padding: 0;
+}
+
+.info-cont {
+    border: 1px solid #838383;
+    border-radius: 5px
+}
+
+h3 {
+    margin: 0;
+    margin-left: 5px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+h5 {
+    margin: 10px 10px 10px 15px;
+    color: #838383;
+}
+
+
+/*Form*/
+.form-text-cont {
+    display: flex;
+    align-items: center;
+}
+
+.form-text {
+    text-align: justify;
+    color: #161616;
+    font-size: 20px;
+}
+
+form {
+    width: 480px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #008000;
+    color: #ffffff; 
+    border-radius: 5px;
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+  }
+
 /*Footer styles*/
 footer {
     background-color: #3c4146;
