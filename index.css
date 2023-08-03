@@ -1,3 +1,12 @@
+/*Header styles*/
+a {
+    text-decoration: none;
+    color: #727272;
+}
+
+.nav-item:hover {
+    color: black; /* Color del texto al pasar el ratón por encima */
+}
 
 /*Section styles*/
 
