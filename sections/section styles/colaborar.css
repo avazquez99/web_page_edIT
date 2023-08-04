@@ -5,7 +5,56 @@ a {
 }
 
 .nav-item:hover {
-    color: black; /* Color del texto al pasar el ratón por encima */
+    color: black;
+    /* Color del texto al pasar el ratón por encima */
+}
+
+/*Section styles*/
+
+/*Section 1 - Body*/
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /*Footer styles*/
